@@ -1,8 +1,7 @@
 # Main script to simulate the GUAM multirotor example
 
+import MultiRotor, L1DRAC
 using Revise
-import MultiRotor
-import L1DRAC
 using LinearAlgebra
 using StaticArrays
 using CUDA

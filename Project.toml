@@ -1,4 +1,5 @@
 name = "MultiRotor"
+uuid = "fe9b716d-b4c8-4387-abb0-cbc5d67fd862"
 version = "0.1.0"
 
 [deps]

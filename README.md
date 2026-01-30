@@ -39,6 +39,14 @@ Add codebase to working environment
 
 ### Setup
 ```julia
+import MultiRotor, L1DRAC
+using Revise
+using LinearAlgebra
+using StaticArrays
+using CUDA
+using Distributions
+using JLD2
+
 function setup_system(; Ntraj=10)
     # Simulation Parameters
     tspan = (0.0, 50.0)
